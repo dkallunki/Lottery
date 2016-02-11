@@ -1,0 +1,53 @@
+Arithmetic Sequence
+
+An arithmetic sequence is a number sequence that the difference of any two successive numbers is a constant. The following is the formula:
+
+    fn = fn-1 + f
+      or
+    a, a + f, a + 2f, a + 3f, a + 4f, ... 
+
+example:
+
+    1, 3, 5, 7, 9 11, 13, ... 
+
+The sum of an arithmetic sequence with n members:
+
+    n(f1 + fn)/2
+      or
+    an + n(n-1)/2 
+
+Geometric Sequence
+
+A geometric sequence is a number sequence that each number after the first is the multiplication of the previous one with a fixed non-zero number. The following is the formula:
+
+    fn = fn-1 * r
+      or
+    a, ar, ar2, ar3, ar4, ... 
+
+where:
+
+    a is a scale factor
+    r is the common ratio 
+
+example:
+
+    1, 2, 4, 8, 16, 32, 64, 128, ... 
+
+The sum of a geometric sequence with n members:
+
+    a(1-rn+1)/(1-r) 
+
+The product of a geometric sequence with n members:
+
+    anr(n(n-1)/2) 
+
+Fibonacci Sequence
+The Fibonacci sequence is a number sequence that the first two numbers are 0 and 1, and each subsequent number is the sum of the previous two. The following is the formula:
+
+    f0 = 0
+    f1 = 1
+    fn = fn-1 + fn-2 
+
+the numbers:
+
+    0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ... 
